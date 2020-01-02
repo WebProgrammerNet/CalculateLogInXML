@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateLoggingInXML", "CalculateLoggingInXML\CalculateLoggingInXML.csproj", "{61C461CC-4FC4-4053-A003-7B6231A76A7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61C461CC-4FC4-4053-A003-7B6231A76A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C461CC-4FC4-4053-A003-7B6231A76A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C461CC-4FC4-4053-A003-7B6231A76A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C461CC-4FC4-4053-A003-7B6231A76A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9F39C0A-4394-435E-B093-540522A8B3FC}
+	EndGlobalSection
+EndGlobal

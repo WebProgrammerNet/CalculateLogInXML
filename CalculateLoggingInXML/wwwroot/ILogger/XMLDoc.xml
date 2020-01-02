@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<calculations>
+  <time>2020-01-02-10-53-55</time>
+  <calculation Id="1">12+6*8=60</calculation>
+  <time>2020-01-02-10-54-02</time>
+  <calculation Id="2">6+10/2=11</calculation>
+  <time>2020-01-02-10-54-06</time>
+  <calculation Id="3">23-84=-61</calculation>
+</calculations>

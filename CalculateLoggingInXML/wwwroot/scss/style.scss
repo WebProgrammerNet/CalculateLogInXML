@@ -1,0 +1,64 @@
+body {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+  }
+#calcarea{
+    width:250px !important;
+}
+
+
+.calc{
+    background-color: silver;
+    color: black;
+    width: 40px;
+    height: 45px;
+    border: 1px solid grey;
+    text-align: center;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 100;
+    box-sizing: border-box;
+    padding: 5px 8px 5px 8px;
+    line-height: 30px;
+}
+.calc:hover{
+ background-color: orange;
+}
+
+.text{
+    display: table-cell;
+}
+
+#calc-dispaly-val{
+    height: 48px;
+    color: white;
+    text-align: right;
+    border-left: 1px solid #adaba7;
+    border-right: 1px solid #adaba7;
+    border-top: 1px solid #adaba7;
+    font-size: 30px;
+    background-color: #b1abab;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    width: 250px;
+    line-height: 34px;
+}
+.operator{
+    background-color: grey;
+    color: white;
+    width: 43.2px;
+    padding-top: 5px;
+}
+
+
+.r{
+    margin-top: 10px !important;
+}

@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <h2>CalculateLoggingInXML</h2>
+
+<section id="mycalc">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-12">
+
+                <div id="calcarea">
+                    <form name="calsend">
+                        <input type="text" name="text" class="text" id="calc-dispaly-val" value="" disabled>
+                    </form>
+
+
+                    <div class="r d-flex justify-content-around">
+                        <span class="calc calcnumber isnum one">1</span>
+                        <span class="calc calcnumber isnum two">2</span>
+                        <span class="calc calcnumber isnum three">3</span>
+                        <span class="calc calcnumber isnum four">4</span>
+                        <span class="calc calcnumber isnum five">5</span>
+                    </div>
+                    <div class="r d-flex justify-content-around">
+                        <span class="calc calcnumber isnum six">6</span>
+                        <span class="calc calcnumber isnum seven">7</span>
+                        <span class="calc calcnumber isnum eight">8</span>
+                        <span class="calc calcnumber isnum nine">9</span>
+                        <span class="calc calcnumber isnum zero">0</span>
+                    </div>
+                    <div class="r d-flex justify-content-around">
+                        <span class="calc operator process sum">+</span>
+                        <span class="calc operator process sub">-</span>
+                        <span class="calc operator process mult">*</span>
+                        <span class="calc operator process div">/</span>
+                        <span class="calc operator process persent">%</span>
+                    </div>
+                    <div class="r d-flex justify-content-around">
+                        <span class="calc operator" id="clear">AC</span><!--Yox -->
+                        <span class="calc operator" id="pilmin">+-</span>
+                        <span class="calc calcnumber  operator" id="point">.</span>
+                        <span style="font-size: 25px !important; line-height:33px;" class="calc operator" id="backspace"><i class="fas fa-backspace"></i></span>
+                        <span class="calc operator" id="equal">=</span><!--Yox -->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
